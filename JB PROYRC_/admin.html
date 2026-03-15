@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Panel Admin - JB Proyec</title>
+
+<link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+<nav class="menu-admin">
+<h2>JB PROYEC ADMIN</h2>
+
+<a href="productos.html">Productos</a>
+<a href="servicio.html">Servicios</a>
+<a href="contacto.html">Contacto</a>
+
+<button onclick="cerrar()">Cerrar sesión</button>
+</nav>
+
+<h1 class="titulo-admin">Panel de Administración</h1>
+
+<div class="panel">
+
+<div class="card-admin">
+<h2>📦 Productos</h2>
+<p>Administrar los productos del sistema.</p>
+<button>Ver productos</button>
+</div>
+
+<div class="card-admin">
+<h2>🛠 Servicios</h2>
+<p>Administrar los servicios ofrecidos.</p>
+<button>Ver servicios</button>
+</div>
+
+<div class="card-admin">
+<h2>📩 Solicitudes</h2>
+<p>Ver solicitudes enviadas por clientes.</p>
+<button>Ver solicitudes</button>
+</div>
+
+</div>
+
+<script>
+
+if(localStorage.getItem("acceso") !== "permitido"){
+window.location.href="login.html";
+}
+
+function cerrar(){
+localStorage.removeItem("acceso");
+window.location.href="login.html";
+}
+
+</script>
+
+</body>
+</html>

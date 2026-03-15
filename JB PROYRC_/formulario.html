@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<title>Solicitar Servicio</title>
+
+<link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h1>Solicitud de Servicio</h1>
+
+
+
+<form action="guardar.php" method="POST">
+
+<label>Nombre</label>
+<input type="text" name="nombre" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Servicio</label>
+<select name="servicio">
+<option>Desarrollo Web</option>
+<option>Ciberseguridad</option>
+<option>Software</option>
+</select>
+
+<label>Mensaje</label>
+<textarea name="mensaje"></textarea>
+
+<button type="submit">Enviar solicitud</button>
+
+</form>
+
+</div>
+
+
+<input type="text" id="usuario" placeholder="Usuario">
+<input type="password" id="clave" placeholder="Contraseña">
+
+<button onclick="login()">Entrar</button>
+</body>
+</html>

@@ -1,0 +1,280 @@
+body{
+
+margin:0;
+font-family:'Share Tech Mono', monospace;
+background:#000;
+color:white;
+
+}
+
+
+/* MENU */
+
+.menu{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px;
+
+background:#020024;
+
+}
+
+.menu ul{
+
+list-style:none;
+display:flex;
+
+}
+
+.menu ul li{
+
+margin-left:20px;
+
+}
+
+.menu ul li a{
+
+text-decoration:none;
+color:#00ffff;
+
+font-family:'Orbitron';
+
+}
+
+.menu ul li a:hover{
+
+color:white;
+
+}
+
+
+/* LOGO */
+
+.logo{
+
+font-family:'Orbitron';
+color:#00ffff;
+
+}
+
+
+/* CONTENEDOR */
+
+.contenedor{
+
+text-align:center;
+margin-top:100px;
+
+}
+
+
+/* LOGIN */
+
+.login-box{
+
+width:300px;
+
+margin:150px auto;
+
+text-align:center;
+
+padding:40px;
+
+background:#020024;
+
+border-radius:10px;
+
+box-shadow:0 0 20px cyan;
+
+}
+
+.login-box input{
+
+width:100%;
+
+padding:10px;
+
+margin:10px 0;
+
+border:none;
+
+}
+
+.login-box button{
+
+padding:10px 20px;
+
+background: cyan;
+
+border:none;
+
+cursor:pointer;
+
+}
+
+
+
+
+
+
+
+
+.servicios{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+margin-top: 30px;
+}
+
+.servicio-box{
+background: rgb(5, 027, 0126);
+padding: 20px;
+width: 250px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+text-align: center;
+}
+
+.servicio-box h2{
+margin-bottom: 10px;
+}
+
+.servicio-box button{
+color: rgb(0, 0, 0);
+border: none;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.servicio-box button:hover{
+background: darkred;
+}
+
+
+/* FORMULARIO */
+
+form{
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-top: 20px;
+}
+
+input, select, textarea{
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus{
+outline: none;
+border: 1px solid #009688;
+box-shadow: 0 0 5px rgba(0,150,136,0.5);
+}
+
+textarea{
+resize: none;
+height: 100px;
+}
+
+button{
+color: white;
+border: none;
+padding: 10px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 15px;
+}
+
+button{
+background: #00796b;
+}
+.boton-servicio{
+background-color: #ff0000;
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+display: inline-block;
+margin-top: 10px;
+font-weight: bold;
+}
+
+.boton-servicio:hover{
+background-color: #b30000;
+}
+
+
+.producto{
+background:white;
+padding:20px;
+margin:10px;
+border-radius:8px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+
+
+.menu-admin{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#111;
+color:rgb(255, 255, 255);
+padding:15px;
+}
+
+.menu-admin a{
+color:white;
+text-decoration:none;
+margin:0 10px;
+}
+
+.menu-admin button{
+background:red;
+color:rgb(252, 252, 252);
+border:none;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.titulo-admin{
+text-align:center;
+margin-top:20px;
+}
+
+.panel{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.card-admin{
+background:white;
+padding:25px;
+width:250px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.card-admin button{
+margin-top:10px;
+background:#007bff;
+color:rgb(255, 255, 255);
+border:none;
+padding:8px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+
